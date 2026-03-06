@@ -1,4 +1,4 @@
-# CEGA-Dashboard
+# CEGA Dashboard
 
 Work in Progress...
 
