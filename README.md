@@ -57,7 +57,7 @@ The packaged `.twbx` source files live in [`dashboard_downloads/`](./dashboard_d
 
 ## Data Pipeline
 
-1. **Convert `.dta` → `.xlsx`.** Use `exporting_to_excel.do` (located in the original Drive under `Data/ORIGINAL DATA/`) to convert Stata files to Excel. **If your data is already in Excel, skip this step** — but make sure column names and values are *actual values, not labels*.
+1. **Convert `.dta` → `.xlsx`.** Use `exporting_to_excel.do` ([`Data/exporting_to_excel.do`](./Data/exporting_to_excel.do)) to convert Stata files to csv. **If your data is already in Excel, skip this step**, but make sure column names and values are *actual values, not labels*.
 2. **Run `processSurvey.py`** ([`Data/processSurvey.py`](./Data/processSurvey.py)). Ask Claude (or another LLM) to adjust it to add only one additional year of data. Keep the `2024 value codebook.xlsx` in the same folder while running.
 
 ### General notes on `processSurvey.py`
@@ -72,7 +72,7 @@ The packaged `.twbx` source files live in [`dashboard_downloads/`](./dashboard_d
 
 ---
 
-## Post-Script Transformations (in Excel)
+## Post-Script Transformations (done in Excel)
 
 ### Migration tab — `Why_Left_Syria` → 9 categories
 
