@@ -149,7 +149,7 @@ New column scoring the 10-item CES-D (range 0–30; higher = more depressive sym
 
 ## Dashboard Design Conventions
 
-Header / banner asset lives in the original Drive at `CEGA Refugee Dashboard Project > Documentation > Design`.
+Header assets lives in ([`Headers/`](./Headers/)).
 
 **Canvas**
 - Size: `600 × 1080` pixels (Desktop)
