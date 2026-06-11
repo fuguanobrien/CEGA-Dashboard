@@ -32,7 +32,7 @@ CEGA-Dashboard/
 
 ## Dashboards
 
-Public Tableau links (may not be active post-May 2026):
+Public Tableau links (may not be active post Summer 2026):
 
 | Topic | Author | Link |
 |---|---|---|
